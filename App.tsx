@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useSocialFeed } from './hooks/useSocialFeed';
 import Navbar from './components/Navbar';
@@ -9,7 +8,7 @@ import ProfileHeader from './components/ProfileHeader';
 type View = 'feed' | 'profile';
 
 const App: React.FC = () => {
-    const { bots, posts, loading, loadingStatus } = useSocialFeed();
+    const { bots, posts, loading, loadingStatus, regenerateFeed } = useSocialFeed();
     const [view, setView] = useState<View>('feed');
     const [activeBotId, setActiveBotId] = useState<string | null>(null);
 
@@ -32,7 +31,7 @@ const App: React.FC = () => {
 
     return (
         <div className="min-h-screen bg-background">
-            <Navbar onHomeClick={handleHomeClick} />
+            <Navbar onHomeClick={handleHomeClick} onRefreshClick={regenerateFeed} />
             <main className="max-w-2xl mx-auto px-4 py-6">
                 {view === 'feed' && (
                     <div>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="#15202B">
+    <title>Game Controller Icon for Pixel</title>
+    <path d="M20,50 C20,30 30,20 50,20 C70,20 80,30 80,50 C80,70 70,80 50,80 C30,80 20,70 20,50 Z" fill="#FFFFFF"/>
+    <rect x="25" y="40" width="10" height="20" rx="2" />
+    <rect x="20" y="45" width="20" height="10" rx="2" />
+    <circle cx="65" cy="45" r="6" />
+    <circle cx="72" cy="60" r="6" />
+</svg>

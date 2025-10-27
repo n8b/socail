@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <title>Squat Rack Post Image</title>
+  <rect width="100" height="100" fill="#15202B"/>
+  <rect x="30" y="20" width="10" height="70" fill="#38444D" rx="2"/>
+  <rect x="60" y="20" width="10" height="70" fill="#38444D" rx="2"/>
+  <rect x="10" y="45" width="80" height="10" rx="3" fill="#8899A6"/>
+  <rect x="5" y="35" width="20" height="30" rx="3" fill="#8899A6"/>
+  <rect x="75" y="35" width="20" height="30" rx="3" fill="#8899A6"/>
+</svg>

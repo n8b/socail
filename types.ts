@@ -11,6 +11,7 @@ export interface Comment {
   id: string;
   commenterId: string;
   text: string;
+  timestamp: number;
 }
 
 export interface Post {
